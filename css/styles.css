@@ -361,6 +361,15 @@ select {
 	transition: all 0.2s;
 }
 
+.image-left {
+	max-width: 75%;
+	border-radius: 20px;
+}
+
+.mt50 {
+	margin-top: 50px;
+}
+
 .form-control-input:focus,
 .form-control-select:focus,
 .form-control-textarea:focus {
@@ -464,8 +473,9 @@ input[type='checkbox'] {
 }
 
 .navbar .logo-image img {
-    width: 230px;
-	height: 60px;
+    /*width: 230px;*/
+	height: 80px;
+	margin-left: -20px;
 }
 
 .navbar .logo-text {
@@ -509,6 +519,10 @@ input[type='checkbox'] {
 	color: #6b747b;
 	text-decoration: none;
 	transition: all 0.2s ease;
+}
+
+.mr50 {
+	margin-right: -50px;
 }
 
 .navbar .nav-item.dropdown.show .nav-link,
@@ -950,6 +964,29 @@ input[type='checkbox'] {
 	border-radius: 50%;
 }
 
+.top25 {
+	margin-top: 25px;
+}
+
+.slider-1 .apple-logo {
+	width: 100px;
+	height: 100px;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-bottom: 1.25rem;
+	margin-left: auto;
+	/*border-radius: 50%;*/
+}
+
+.slider-1 .card-image-border {
+	width: 300px;
+	height: 200px;
+	margin-right: auto;
+	margin-bottom: 1.25rem;
+	margin-left: auto;
+	/*border-radius: 50%;*/
+}
+
 .slider-1 .card-body {
 	padding: 0;
 }
@@ -1286,6 +1323,12 @@ a:hover.back-to-top {
 		margin-left: auto;
 	}
 
+	.h2-heading-center {
+		text-align: center;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
 	.p-heading {
 		width: 46rem;
 		margin-right: auto;
@@ -1555,8 +1598,8 @@ a:hover.back-to-top {
 	/* Features */
 	.cards-1 .card {
 		width: 350px;
-		padding-right: 3rem;
-		padding-left: 3rem;
+		padding-right: 1.5rem;
+		padding-left: 1.5rem;
 	}
 
 	.cards-1 .card:nth-of-type(3n+2) {
@@ -1718,7 +1761,11 @@ a:hover.back-to-top {
   outline: none;
 }
 
-		
+.directionImage {
+	width: 115%;
+    margin-left: -40px;
+    margin-top: 65px;
+}
 
 
 
