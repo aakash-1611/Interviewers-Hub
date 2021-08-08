@@ -37,7 +37,6 @@
     <link href="css/swiper.css" rel="stylesheet">
     <link href="css/magnific-popup.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
-    
     <!-- Favicon  -->
     <link rel="icon" href="images/favicon1.png">
 </head>
@@ -51,7 +50,7 @@
             <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Pavo</a> -->
 
             <!-- Image Logo -->
-            <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.png" alt="alternative"></a> 
+            <a class="logo-image" href="index.html"><img src="images/logo.png" alt="alternative"></a> 
 
             <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
                 <span class="navbar-toggler-icon"></span>
@@ -107,7 +106,7 @@
 
                           <form class="Signup__form" id="newsletter">
                             <input required id="email" type="email" class="email-signup" placeholder="marlon@gmail.com">
-                            <button form="newsletter" type="submit" class="btn-solid-lg">Book a free interview</button>
+                            <button form="newsletter" type="submit" class="btn-solid-lg inline-class">Book a free interview</button>
                           </form>
                         <!-- <a class="btn-solid-lg" href="#your-link">Learn more</a> -->
                         <!-- <a class="btn-solid-lg secondary" href="#your-link"><i class="fab fa-google-play"></i>Learn more</a> -->
@@ -419,7 +418,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h4>What got you here, won't get you there. Our community will help you attain the attitude for  <span class="purple">"that"</span> company</h4>
+                    <h4>What got you here, won't get you there. Our community will help you attain the attitude for  <span class="purple">"that"</span> company.</h4>
+
+                    <div>
+                      <button type="button" class="btn-solid-lg mb50" data-toggle="modal" data-target="#modalContactForm">
+                        Get In Touch
+                      </button>  
+                    </div>
                     <span> One of our partner companies had taken over 300+ interviews just to fill one front-end engineer position. But why? They were looking for strong engineers who can write js libraries from scratch. Yup, you got it right, our mentors will help you with all this info and guidance.</span>
                     <div class="social-container">
                         <span class="fa-stack">
@@ -478,6 +483,77 @@
         </div> <!-- end of container -->
     </div> <!-- end of copyright --> 
     <!-- end of copyright -->
+
+
+    <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" displayed="false" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header border-bottom-0">
+            <h5 class="modal-title" id="exampleModalLabel">Get In Touch</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <form>
+            <div class="modal-body">
+              <div class="form-group">
+                <label for="name">Full Name: </label>
+                <input type="text" class="form-control" id="name">
+              </div>
+              <div class="form-group">
+                <label for="email">Email address:</label>
+                <input type="email" class="form-control" id="email">
+                <small id="emailHelp" class="form-text text-muted">Your information is safe with us.</small>
+              </div>
+              <div class="form-group">
+                <label for="experience">Current Experience:</label>
+                <select name="experiencelevel" id="experienceLevel">
+                  <option value="0-2">0 to 2 Years</option>
+                  <option value="3-5">3 to 5 Years</option>
+                  <option value="5-8">5 to 8 Years</option>
+                  <option value="8-10">8 to 10 Years</option>
+                  <option value="10+">10+ Years</option>
+                </select>
+              </div>
+              <div class="form-group">
+                 <label for="domain">Domain:</label>
+                  <select name="">
+                     <option value="1">AI/ML Engineer</option>
+                     <option value="2">Automation Engineer</option>
+                     <option value="3">Backend Develope</option>
+                     <option value="4">Business Analyst</option>
+                     <option value="5">Business Consultant</option>
+                     <option value="6">Data Analyst</option>
+                     <option value="7">Data Scientist</option>
+                     <option value="8">Database Engineer</option>
+                     <option value="9">DevOps Engineer</option>
+                     <option value="10">Embedded Systems Engineer</option>
+                     <option value="11">Engineering Manager</option>
+                     <option value="12">Frontend Developer</option>
+                     <option value="13">Full Stack Developer</option>
+                     <option value="14">Hardware Engineer</option>
+                     <option value="15">Product Analyst</option>
+                     <option value="16">Product Manager</option>
+                     <option value="17">Q/A Testing</option>
+                     <option value="18">SAP Engineer</option>
+                     <option value="19">Site Reliability Engineer</option>
+                     <option value="20">Software Engineer Campus Placements</option>
+                     <option value="21">System Engineer</option>
+                     <option value="22">Technical Architect</option>
+                     <option value="23">Technical Manager</option>
+                     <option value="24">UI/UX Designer</option>
+                     <option value="25">VLSI Engineer</option>
+                     <option value="26">Others</option>
+                  </select>
+              </div>
+            </div>
+            <div class="modal-footer border-top-0 d-flex justify-content-center">
+              <button type="submit" class="btn btn-success">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
             
     <!-- Scripts -->
     <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
