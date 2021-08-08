@@ -505,6 +505,20 @@ input[type='checkbox'] {
 		padding: 1.125rem 2.75rem 1.125rem 2.75rem;
     	width: 100%;
 	}
+
+	.slider-1 .card-image-border {
+		width: 200px !important;
+		height: 200px !important;
+	}
+	.slider-1 .swiper-button-prev {
+		left: 0px !important;
+		margin-top: -40px !important;
+	}
+	.slider-1 .swiper-button-next {
+		right: 0px !important;
+		margin-top: -40px !important;
+	}
+	
 }
 
 .navbar .logo-text {
